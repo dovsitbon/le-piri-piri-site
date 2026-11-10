@@ -1,0 +1,18 @@
+{
+  "_doc": "HORAIRES PROVISOIRES, À CONFIRMER avec le restaurant (passer confirmed à true une fois validés : la mention « horaires à confirmer » disparaît alors du site). Heure de Paris. 1 = lundi … 7 = dimanche. exceptions : fermetures ou horaires spéciaux datés (AAAA-MM-JJ), « closed » ou des créneaux. Le statut « Ouvert / Fermé » et les heures de retrait des commandes en dépendent.",
+  "confirmed": false,
+  "timezone": "Europe/Paris",
+  "week": {
+    "1": [],
+    "2": [["11:30", "14:00"], ["18:00", "21:00"]],
+    "3": [["11:30", "14:00"], ["18:00", "21:00"]],
+    "4": [["11:30", "14:00"], ["18:00", "21:00"]],
+    "5": [["11:30", "14:00"], ["18:00", "21:30"]],
+    "6": [["11:30", "14:00"], ["18:00", "21:30"]],
+    "7": [["11:30", "14:00"]]
+  },
+  "exceptions": [
+    { "date": "2026-12-25", "closed": true },
+    { "date": "2027-01-01", "closed": true }
+  ]
+}

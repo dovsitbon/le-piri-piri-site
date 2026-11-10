@@ -1,0 +1,422 @@
+@import "tailwindcss";
+
+/* Polices en local (public/fonts, copiées depuis @fontsource-variable) : aucun appel à Google Fonts.
+   Fraunces pour les titres (chaleureuse, un peu « enseigne peinte »), Jost pour le texte. */
+@font-face {
+  font-family: "Fraunces Local";
+  src: url("/fonts/fraunces-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fraunces Local";
+  src: url("/fonts/fraunces-latin-wght-italic.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost Local";
+  src: url("/fonts/jost-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Charte : le blanc chaulé des façades, le bleu des azulejos, le rouge du piment,
+     le jaune du soleil (en touches seulement), le brun de la braise pour le texte. */
+  --color-paper: #fbf8f2;
+  --color-paper-deep: #f3ece0;
+  --color-azul: #1f4e8c;
+  --color-azul-deep: #163a6a;
+  --color-azul-soft: #e4ebf4;
+  --color-piment: #c8322b;
+  --color-piment-deep: #a5241e;
+  --color-sol: #f2b705;
+  --color-sol-soft: #fbe8b0;
+  --color-braise: #3a241a;
+  /* Texte secondaire : 7,6:1 sur le papier */
+  --color-muted: #5f4b40;
+  --color-line: #e2d8c8;
+
+  --font-body: "Jost Local", system-ui, sans-serif;
+  --font-display: "Fraunces Local", Georgia, serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+  body {
+    background: var(--color-paper);
+    color: var(--color-braise);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-sol-soft);
+    color: var(--color-braise);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-azul);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  /* Petite ligne au-dessus des titres : italique, filet bleu devant */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.0625rem;
+    font-weight: 450;
+    color: var(--color-azul);
+  }
+  .eyebrow::before {
+    content: "";
+    width: 1.5rem;
+    height: 2px;
+    background: currentColor;
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 620;
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+  }
+  .lead {
+    font-size: 1.125rem;
+    line-height: 1.65;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-line,
+  .btn-light {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 3rem;
+    padding: 0.7rem 1.4rem;
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    font-weight: 560;
+    line-height: 1.1;
+    transition:
+      background-color 0.2s var(--ease-soft),
+      color 0.2s var(--ease-soft),
+      border-color 0.2s var(--ease-soft);
+  }
+  .btn {
+    background: var(--color-piment);
+    border: 2px solid var(--color-piment);
+    color: #fff;
+  }
+  .btn:hover {
+    background: var(--color-piment-deep);
+    border-color: var(--color-piment-deep);
+  }
+  .btn-line {
+    border: 2px solid currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-braise);
+    border-color: var(--color-braise);
+    color: var(--color-paper);
+  }
+  .btn-light {
+    border: 2px solid var(--color-paper);
+    color: var(--color-paper);
+  }
+  .btn-light:hover {
+    background: var(--color-paper);
+    color: var(--color-azul-deep);
+  }
+  .btn:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.25em;
+    text-decoration-color: var(--color-sol);
+    transition: text-decoration-color 0.2s;
+  }
+  .link-line:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 3rem;
+    border: 1.5px solid #cdbfab;
+    border-radius: 4px;
+    background: #fff;
+    padding: 0.6rem 0.85rem;
+    font-size: 1rem;
+    color: var(--color-braise);
+    transition: border-color 0.2s;
+  }
+  select.field {
+    appearance: none;
+    background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231f4e8c' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.8rem center / 1.1rem;
+    padding-inline-end: 2.4rem;
+    cursor: pointer;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-azul);
+    box-shadow: 0 0 0 3px var(--color-azul-soft);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-piment);
+  }
+  .field::placeholder {
+    color: #8f7f72;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.9375rem;
+    font-weight: 560;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 2.75rem;
+    padding: 0.45rem 1rem;
+    border: 1.5px solid #cdbfab;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 0.9875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-azul);
+  }
+  .chip:has(input:checked),
+  .chip[aria-pressed="true"],
+  .chip[aria-selected="true"] {
+    border-color: var(--color-azul);
+    background: var(--color-azul);
+    color: #fff;
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-azul);
+    outline-offset: 3px;
+  }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.05rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.8125rem;
+    font-weight: 560;
+    line-height: 1.6;
+    background: var(--color-paper-deep);
+    color: var(--color-muted);
+  }
+  .tag-spicy {
+    background: #f8e0dc;
+    color: #8f1f19;
+  }
+  .tag-fish {
+    background: var(--color-azul-soft);
+    color: var(--color-azul-deep);
+  }
+  .tag-party {
+    background: var(--color-sol-soft);
+    color: #5c4300;
+  }
+
+  .zoom {
+    position: relative;
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 0.7s var(--ease-soft);
+  }
+  .zoom:hover img,
+  .group:hover .zoom img {
+    transform: scale(1.03);
+  }
+
+  /* Motif d'azulejo au trait, en fond : carreau de 96 px (coins en quart de cercle, fleur à quatre pétales). */
+  .azulejo-dark {
+    background-color: var(--color-azul);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' fill='none' stroke='%23fbf8f2' stroke-opacity='.16' stroke-width='1.5'%3E%3Cpath d='M0 0h96v96H0z'/%3E%3Cpath d='M0 22A22 22 0 0 0 22 0M74 0a22 22 0 0 0 22 22M96 74a22 22 0 0 0-22 22M22 96A22 22 0 0 0 0 74'/%3E%3Cpath d='M48 20c9 9 9 19 0 28-9-9-9-19 0-28zM76 48c-9 9-19 9-28 0 9-9 19-9 28 0zM48 76c-9-9-9-19 0-28 9 9 9 19 0 28zM20 48c9-9 19-9 28 0-9 9-19 9-28 0z'/%3E%3Ccircle cx='48' cy='48' r='4'/%3E%3C/svg%3E");
+  }
+  .azulejo-soft {
+    background-color: var(--color-azul-soft);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' fill='none' stroke='%231f4e8c' stroke-opacity='.18' stroke-width='1.5'%3E%3Cpath d='M0 0h96v96H0z'/%3E%3Cpath d='M0 22A22 22 0 0 0 22 0M74 0a22 22 0 0 0 22 22M96 74a22 22 0 0 0-22 22M22 96A22 22 0 0 0 0 74'/%3E%3Cpath d='M48 20c9 9 9 19 0 28-9-9-9-19 0-28zM76 48c-9 9-19 9-28 0 9-9 19-9 28 0zM48 76c-9-9-9-19 0-28 9 9 9 19 0 28zM20 48c9-9 19-9 28 0-9 9-19 9-28 0z'/%3E%3Ccircle cx='48' cy='48' r='4'/%3E%3C/svg%3E");
+  }
+  .azulejo-warm {
+    background-color: var(--color-paper-deep);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' fill='none' stroke='%233a241a' stroke-opacity='.09' stroke-width='1.5'%3E%3Cpath d='M0 0h96v96H0z'/%3E%3Cpath d='M0 22A22 22 0 0 0 22 0M74 0a22 22 0 0 0 22 22M96 74a22 22 0 0 0-22 22M22 96A22 22 0 0 0 0 74'/%3E%3Cpath d='M48 20c9 9 9 19 0 28-9-9-9-19 0-28zM76 48c-9 9-19 9-28 0 9-9 19-9 28 0zM48 76c-9-9-9-19 0-28 9 9 9 19 0 28zM20 48c9-9 19-9 28 0-9 9-19 9-28 0z'/%3E%3Ccircle cx='48' cy='48' r='4'/%3E%3C/svg%3E");
+  }
+  /* Frise de carreaux : un filet bleu entre deux sections */
+  .frieze {
+    height: 14px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='14' fill='none' stroke='%231f4e8c' stroke-width='1.5'%3E%3Cpath d='M0 .75h28M0 13.25h28M14 1.5 20.5 7 14 12.5 7.5 7z'/%3E%3C/svg%3E") repeat-x center / 28px 14px;
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) : courte et sobre */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 16px));
+}
+.reveal {
+  transition:
+    opacity 0.55s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 0.55s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.25s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 0.6s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* ——— Ouverture (1,2 s) : fond blanc, un carreau d'azulejo se dessine au trait bleu,
+   un petit piment rouge se pose dessus, « LE PIRI PIRI » apparaît, fondu sur le hero. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: #fff;
+  animation: intro-out 0.25s ease-out 0.95s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw var(--t, 0.4s) cubic-bezier(0.55, 0, 0.3, 1) var(--d, 0s) forwards;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-chili {
+  opacity: 0;
+  transform: translate(10px, -34px) rotate(-18deg);
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: intro-chili 0.3s cubic-bezier(0.34, 1.4, 0.64, 1) 0.5s forwards;
+}
+@keyframes intro-chili {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.intro-word {
+  opacity: 0;
+  transform: translateY(6px);
+  animation: intro-word 0.25s var(--ease-soft) 0.7s forwards;
+}
+@keyframes intro-word {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+.faq-plus {
+  transition: transform 0.25s var(--ease-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

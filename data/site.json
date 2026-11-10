@@ -1,0 +1,21 @@
+{
+  "_doc": "Coordonnées et réglages généraux. Tout ce qui est vide (\"\") est « à remplir » et reste masqué sur le site. rating : note Google relevée à la main (mettre à jour value, count et checked). whatsapp : numéro de portable au format international sans + (ex. 33612345678) : le bouton WhatsApp apparaît dès qu'il est rempli. payment.enabled : paiement en ligne (Stripe), désactivé par défaut.",
+  "name": "Le Piri Piri",
+  "fullName": "Le Piri Piri · Cuisine portugaise",
+  "url": "https://le-piri-piri.vercel.app",
+  "phone": "03 22 44 76 51",
+  "phoneIntl": "+33322447651",
+  "whatsapp": "",
+  "email": "",
+  "owner": "Philippe Salgado",
+  "address": { "street": "2 ter rue de l'Eau", "postalCode": "80480", "city": "Pont-de-Metz", "near": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.8786, "lng": 2.2424 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Piri+Piri+2+ter+rue+de+l%27Eau+80480+Pont-de-Metz",
+  "mapsEmbed": "https://www.google.com/maps?q=Le+Piri+Piri,+2+ter+rue+de+l'Eau,+80480+Pont-de-Metz&z=15&output=embed",
+  "facebook": "https://www.facebook.com/100090055487073/",
+  "instagram": "https://www.instagram.com/explore/locations/208381254874992/le-piri-piri/",
+  "rating": { "value": 4.5, "count": 109, "source": "Google", "checked": "2026-11-10" },
+  "order": { "minutesAhead": 30, "stepMinutes": 15, "daysAhead": 6, "maxPerLine": 20, "groupMinDays": 2, "groupMaxDays": 90 },
+  "payment": { "enabled": false, "provider": "stripe" },
+  "legal": { "company": "La Morada", "siret": "", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

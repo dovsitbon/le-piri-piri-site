@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "title": "Piri piri chicken and Portuguese food near Amiens, Pont-de-Metz | Le Piri Piri",
+    "description": "Piri piri chicken grilled over live coals, grilled meats, bacalhau and Portuguese plates at 2 ter rue de l'Eau, Pont-de-Metz, 10 minutes from Amiens. Takeaway or eat in, order online.",
+    "ogAlt": "Le Piri Piri, Portuguese food in Pont-de-Metz: piri piri chicken grilled over coals"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "home": "Le Piri Piri, home",
+    "carte": "Menu",
+    "order": "Order",
+    "groups": "Groups",
+    "infos": "Info",
+    "orderCta": "Order",
+    "call": "Call",
+    "route": "Directions",
+    "lang": "Language",
+    "facebook": "Le Piri Piri on Facebook",
+    "shortcuts": "Shortcuts"
+  },
+  "intro": { "skip": "Skip" },
+  "announce": { "close": "Close the banner" },
+  "hero": {
+    "eyebrow": "Portuguese food · Pont-de-Metz, Amiens",
+    "title": "Portugal, grilled over coals.",
+    "sub": "Piri piri chicken, grilled meats and bacalhau. Takeaway or eat in.",
+    "ctaOrder": "Order",
+    "ctaMenu": "See the menu",
+    "rating": "{value}/5 on Google",
+    "ratingCount": "{count} reviews",
+    "ratingNote": "Google rating checked on {date}"
+  },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed now",
+    "until": "until {time}",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow",
+    "tbc": "hours to be confirmed"
+  },
+  "tiles": {
+    "title": "The menu at a glance",
+    "items": {
+      "poulet": "Piri piri chicken",
+      "grillades": "Grills",
+      "bacalhau": "Bacalhau",
+      "assiettes": "Plates",
+      "accompagnements": "Sides",
+      "desserts": "Desserts"
+    }
+  },
+  "services": {
+    "title": "What we do",
+    "items": [
+      { "title": "Takeaway", "text": "Order online, pick it up." },
+      { "title": "Grilled over coals", "text": "On the grill, right above the embers." },
+      { "title": "Groups and parties", "text": "Whole chickens and platters, on quote." },
+      { "title": "By phone", "text": "03 22 44 76 51, during opening hours." }
+    ]
+  },
+  "carte": {
+    "eyebrow": "The menu",
+    "title": "Simple, generous, Portuguese.",
+    "intro": "Pick a tab, add your dishes, come and collect.",
+    "seeFull": "The full menu on one page",
+    "tabsLabel": "Menu categories",
+    "tabs": {
+      "poulet": "Piri piri chicken",
+      "grillades": "Grills",
+      "bacalhau": "Bacalhau",
+      "assiettes": "Plates",
+      "accompagnements": "Sides",
+      "desserts": "Desserts",
+      "boissons": "Drinks"
+    },
+    "add": "Add",
+    "addLabel": "Add “{name}” to your order",
+    "added": "Added",
+    "priceTbc": "Price to be confirmed",
+    "from": "from",
+    "allergens": "Allergens: the full list is available at the counter. Please tell us about any allergy.",
+    "checked": "Prices checked on {date}.",
+    "tbcNote": "Menu being updated: prices appear as soon as they are confirmed. The exact total is given to you at pick-up."
+  },
+  "tags": {
+    "spicy": "Piri piri",
+    "fish": "Fish",
+    "veggie": "Vegetarian",
+    "friday": "On Fridays",
+    "party": "For parties"
+  },
+  "products": {
+    "poulet-entier": { "name": "Whole piri piri chicken", "desc": "Butterflied, grilled over coals, brushed with our homemade piri piri sauce. Feeds 3 or 4." },
+    "demi-poulet": { "name": "Half piri piri chicken", "desc": "Half the bird, same grill, same sauce. The dish the house is known for." },
+    "cuisses": { "name": "Grilled chicken legs", "desc": "Marinated in garlic and paprika, grilled until the skin crackles." },
+    "febras": { "name": "Febras", "desc": "Thin pork slices marinated in garlic and white wine, seared on the grill." },
+    "espetada": { "name": "Espetada", "desc": "Beef skewer with bay leaf, grilled over coals." },
+    "entremeada": { "name": "Entremeada", "desc": "Grilled pork belly with coarse salt, crisp outside, tender inside." },
+    "chourico": { "name": "Chouriço assado", "desc": "Smoked Portuguese sausage, grilled over coals." },
+    "bifana": { "name": "Bifana", "desc": "Lisbon's sandwich: marinated pork in a soft roll, with mustard or piri piri." },
+    "bacalhau-bras": { "name": "Bacalhau à Brás", "desc": "Shredded salt cod, matchstick potatoes, egg, onion and black olives." },
+    "bacalhau-grelhado": { "name": "Grilled salt cod", "desc": "Grilled cod loin, crushed potatoes, olive oil and garlic." },
+    "pasteis-bacalhau": { "name": "Pastéis de bacalhau", "desc": "Salt cod and potato fritters with parsley. Single or by the dozen." },
+    "assiette-piri": { "name": "Piri piri plate", "desc": "Half chicken, homemade fries, rice and salad. The full plate." },
+    "assiette-mixte": { "name": "Mixed grill plate", "desc": "Chicken, febras and chouriço on one plate, with fries and salad." },
+    "prato-do-dia": { "name": "Dish of the day", "desc": "A Portuguese family dish that changes every day. Ask at the counter." },
+    "frites": { "name": "Homemade fries", "desc": "Cut in-house, golden." },
+    "arroz": { "name": "Portuguese rice", "desc": "Rice with tomato and bay leaf, the way it's done back home." },
+    "salade": { "name": "Mixed salad", "desc": "Tomato, onion, lettuce, olive oil." },
+    "sauce-piri": { "name": "Homemade piri piri sauce", "desc": "Our own chilli sauce, in a pot, for those who want more." },
+    "pastel-nata": { "name": "Pastel de nata", "desc": "Custard tart in flaky pastry, with cinnamon if you like." },
+    "bola-berlim": { "name": "Bola de Berlim", "desc": "Doughnut filled with custard cream, Portuguese style." },
+    "arroz-doce": { "name": "Arroz doce", "desc": "Lemon rice pudding with a cinnamon pattern on top." },
+    "sumol": { "name": "Sumol", "desc": "Portugal's fizzy fruit soda, pineapple or orange." },
+    "compal": { "name": "Compal", "desc": "Fruit nectar, peach or mango." },
+    "super-bock": { "name": "Super Bock", "desc": "The lager from Porto. Please drink responsibly." },
+    "soft": { "name": "Soft drinks and water", "desc": "Cola, iced tea, still or sparkling water." }
+  },
+  "blocks": {
+    "braise": {
+      "eyebrow": "Coals and piri piri",
+      "title": "Fire, chilli and patience.",
+      "text": "The chicken is butterflied, marinated, then grilled over the coals. The piri piri sauce is made in-house: it has been our signature since 2022. And we ask you just like in Portugal: with or without?",
+      "cta": "See the menu"
+    },
+    "specialites": {
+      "eyebrow": "Specialities",
+      "title": "Bacalhau, like at home.",
+      "text": "Philippe Salgado grew up around Amiens, in a family that came from Portugal in the early 1970s. On the menu: bacalhau à Brás, pastéis de bacalhau, febras, chouriço. The dishes families share on a Sunday.",
+      "cta": "Order"
+    },
+    "fetes": {
+      "eyebrow": "Groups and parties",
+      "title": "A birthday? Plan the chickens.",
+      "text": "Whole chickens, grill platters, pastéis de bacalhau and pastéis de nata for parties, team lunches or Portugal match nights. Tell us the date and how many guests, and we'll call you back with a quote.",
+      "cta": "Ask for a quote"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "What our customers say",
+    "intro": "What comes up most in our Google reviews:",
+    "themes": ["How the chicken is cooked", "Generous plates", "The smell of the grill", "The bacalhau", "A taste of travel"],
+    "google": "Read the reviews on Google"
+  },
+  "order": {
+    "eyebrow": "Order",
+    "title": "Order, and we'll fire up the grill.",
+    "intro": "Choose your dishes and a pick-up time, then come and collect. Pay at the counter.",
+    "callTitle": "Easier by phone?",
+    "callText": "Call us during opening hours.",
+    "callCta": "Call",
+    "modesTitle": "Your order",
+    "modes": { "emporter": "Takeaway", "surplace": "Eat in", "groupe": "Party or group (quote)" },
+    "itemsTitle": "Your dishes",
+    "itemsOptional": "Your dishes (optional)",
+    "dish": "Dish",
+    "quantity": "Quantity",
+    "addLine": "Add a dish",
+    "removeLine": "Remove this dish",
+    "persons": "Number of guests",
+    "groupIntro": "For a party, a team meal or a lot of chickens, at least 2 days ahead. We'll call you back with a quote.",
+    "groupDate": "Preferred date",
+    "pickupTitle": "Pick-up",
+    "pickupTitleSurPlace": "Your arrival",
+    "day": "Day",
+    "time": "Time",
+    "timeOptional": "Preferred time (optional)",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "noSlots": "No slots left that day: please pick another day.",
+    "closedDay": "The restaurant is closed that day (hours to be confirmed with us).",
+    "prefsTitle": "Piri piri",
+    "prefs": { "mild": "Mild", "hot": "Extra hot", "sauceApart": "Sauce on the side" },
+    "message": "Notes",
+    "messagePh": "Allergy, how to cut the chicken, cutlery…",
+    "messagePhGroup": "Type of party, what you'd like, any allergy…",
+    "contactTitle": "Your details",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email (optional)",
+    "emailHint": "To receive a summary.",
+    "total": "Estimated total",
+    "totalNote": "Some prices are still to be confirmed: the exact amount is given at pick-up.",
+    "submit": "Send my order",
+    "submitGroup": "Ask for a quote",
+    "sending": "Sending…",
+    "payNote": "Pay at pick-up, at the counter.",
+    "payOnline": "Pay online",
+    "whatsapp": "Send on WhatsApp",
+    "errors": {
+      "lines": "Please add at least one dish.",
+      "day": "Please choose a day.",
+      "time": "Please choose a time.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email doesn't look right.",
+      "persons": "Please enter the number of guests.",
+      "send": "Sending failed. Please call us and we'll take your order by phone."
+    },
+    "done": {
+      "title": "Order sent",
+      "text": "It has reached the restaurant. See you at your chosen time.",
+      "groupTitle": "Request sent",
+      "groupText": "We'll call you back shortly with a quote.",
+      "pendingTitle": "One last step: a phone call",
+      "pendingText": "Online ordering opens soon. Please call us to confirm: your summary is ready below.",
+      "mail": "A summary is on its way to {email}.",
+      "again": "New order"
+    },
+    "mail": {
+      "subject": "New order",
+      "subjectGroup": "Quote request",
+      "title": "New order from the website",
+      "titleGroup": "Quote request (party or group)",
+      "mode": "Type",
+      "persons": "Guests",
+      "lines": "Dishes",
+      "pickup": "Pick-up",
+      "date": "Date",
+      "prefs": "Piri piri",
+      "total": "Estimated total",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Notes",
+      "lang": "Customer language",
+      "confirmSubject": "Your order at Le Piri Piri",
+      "confirmIntro": "Hello {name}, thank you for your order. Here is your summary:",
+      "confirmOutro": "Any question? Call us on +33 3 22 44 76 51. See you soon, Le Piri Piri, 2 ter rue de l'Eau, Pont-de-Metz."
+    }
+  },
+  "infos": {
+    "eyebrow": "Practical info",
+    "title": "10 minutes from Amiens.",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "hoursTbc": "Hours are being confirmed: if in doubt, call before you come.",
+    "access": "Getting here",
+    "accessText": "Rue de l'Eau, in the heart of Pont-de-Metz, a 10-minute drive from central Amiens via the Rouen road.",
+    "parking": "Parking",
+    "parkingText": "Street parking nearby (to be confirmed).",
+    "route": "Directions",
+    "mapTitle": "Le Piri Piri on the map",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "closed": "Closed"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Good to know",
+    "items": [
+      { "q": "Do I need to order ahead?", "a": "It's not required, but it's quicker: order online or by phone and choose your pick-up time. For a whole chicken at peak times, allow 30 minutes." },
+      { "q": "Can we eat in?", "a": "Yes, you can eat at the restaurant. Choose “Eat in” on the form if you order ahead." },
+      { "q": "How do I pay?", "a": "At the counter when you collect. Accepted payment methods are to be confirmed with the restaurant (card, cash, meal vouchers)." },
+      { "q": "Is piri piri very hot?", "a": "You choose: mild, normal or extra hot. The sauce can also be served on the side." },
+      { "q": "Do you cater for parties and groups?", "a": "Yes: whole chickens, grills, pastéis de bacalhau and pastéis de nata. Ask for a quote at least 2 days ahead, online or by phone." },
+      { "q": "Where can I park?", "a": "The restaurant is at 2 ter rue de l'Eau in Pont-de-Metz, 10 minutes from Amiens. There is street parking nearby." }
+    ]
+  },
+  "footer": {
+    "tagline": "Portuguese fast food. Piri piri chicken, grills and bacalhau, since 2022.",
+    "menu": "Menu",
+    "portugais": "Portuguese restaurant near Amiens",
+    "piripiri": "Piri piri chicken in Amiens",
+    "legal": "Legal notice",
+    "rights": "© {year} Le Piri Piri · Pont-de-Metz"
+  },
+  "pages": {
+    "carte": {
+      "slug": "menu",
+      "title": "The menu",
+      "metaTitle": "Menu: piri piri chicken, grills, bacalhau | Le Piri Piri, Pont-de-Metz",
+      "metaDescription": "The full menu of Le Piri Piri in Pont-de-Metz, near Amiens: piri piri chicken over coals, febras, espetada, bacalhau à Brás, plates and pastéis de nata. Takeaway or eat in.",
+      "eyebrow": "Portuguese food",
+      "lead": "Chicken over coals, grilled meats, salt cod and Portuguese sweets. Takeaway or eat in."
+    },
+    "portugais": {
+      "slug": "portuguese-restaurant-amiens",
+      "title": "Portuguese restaurant near Amiens",
+      "metaTitle": "Portuguese restaurant near Amiens: grills and bacalhau | Le Piri Piri",
+      "metaDescription": "A Portuguese restaurant in Pont-de-Metz, 10 minutes from Amiens: piri piri chicken over coals, febras, chouriço, bacalhau à Brás and pastéis de nata. Eat in or takeaway.",
+      "eyebrow": "Pont-de-Metz · Amiens",
+      "lead": "Portuguese family cooking, 10 minutes from central Amiens.",
+      "sections": [
+        { "h": "Family cooking", "p": "Le Piri Piri opened in Pont-de-Metz in 2022. Behind the counter is Philippe Salgado, whose parents came from Portugal to the Amiens area in the early 1970s. The food is what families eat together: simple, generous, homemade." },
+        { "h": "Portuguese classics", "p": "Piri piri chicken over coals, febras, espetada, entremeada, chouriço assado. For fish lovers, salt cod: bacalhau à Brás, grilled cod, pastéis de bacalhau. And a pastel de nata to finish." },
+        { "h": "Eat in or takeaway", "p": "Order online or by phone, choose your time, come and collect. For parties and groups, we prepare whole chickens and platters on quote." }
+      ],
+      "faq": [
+        { "q": "Where is there a Portuguese restaurant near Amiens?", "a": "Le Piri Piri is at 2 ter rue de l'Eau in Pont-de-Metz, a 10-minute drive from central Amiens." },
+        { "q": "Where can I eat bacalhau near Amiens?", "a": "At Le Piri Piri: bacalhau à Brás, grilled cod and pastéis de bacalhau, eat in or takeaway." }
+      ],
+      "cta": "See the menu"
+    },
+    "piripiri": {
+      "slug": "piri-piri-chicken-amiens",
+      "title": "Piri piri chicken in Amiens",
+      "metaTitle": "Piri piri chicken in Amiens, grilled over coals | Le Piri Piri",
+      "metaDescription": "Piri piri chicken grilled over coals with our homemade sauce, in Pont-de-Metz near Amiens. Whole, half or as a plate. Order online and pick it up.",
+      "eyebrow": "Frango piri piri",
+      "lead": "Butterflied, grilled over coals, homemade piri piri sauce.",
+      "sections": [
+        { "h": "Real piri piri chicken", "p": "In Portugal, when you buy a grilled chicken, they ask: with or without piri piri? Same here. The chicken is butterflied, marinated, grilled over the coals, then brushed with our homemade chilli sauce." },
+        { "h": "Whole, half or as a plate", "p": "A whole chicken feeds 3 or 4. A half chicken is a meal for one, with homemade fries and Portuguese rice. The piri piri plate puts it all in one box." },
+        { "h": "Order before you come", "p": "Choose your pick-up time online and the chicken will be ready. For a birthday or a match, order several whole chickens at least 2 days ahead." }
+      ],
+      "faq": [
+        { "q": "Where can I get piri piri chicken in Amiens?", "a": "At Le Piri Piri, 2 ter rue de l'Eau in Pont-de-Metz, 10 minutes from central Amiens. Eat in or takeaway." },
+        { "q": "Can I choose how spicy it is?", "a": "Yes: mild, normal or extra hot, and the sauce can be served on the side." }
+      ],
+      "cta": "Order a chicken"
+    },
+    "legal": {
+      "slug": "legal",
+      "title": "Legal notice",
+      "metaTitle": "Legal notice | Le Piri Piri",
+      "editor": "Publisher",
+      "siret": "SIRET",
+      "director": "Publication director",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "The information sent through the order form (name, phone, email, order) is only used to prepare your order and contact you. It is never sold or used for advertising. To see or delete it, call {phone}.",
+      "photos": "Photos and text",
+      "photosText": "Photos and text: Le Piri Piri. Any reproduction without permission is prohibited.",
+      "toConfirm": "to be completed"
+    }
+  },
+  "jsonld": { "takeaway": "Takeaway", "dineIn": "Dine-in", "groups": "Catering for groups and parties" },
+  "alt": {
+    "hero": "Piri piri chicken grilled over coals at Le Piri Piri, Pont-de-Metz",
+    "facade": "The front of Le Piri Piri, rue de l'Eau, Pont-de-Metz",
+    "interieur": "Inside Le Piri Piri",
+    "equipe": "The Le Piri Piri team behind the counter",
+    "braise": "Chickens on the grill above the coals",
+    "bacalhau": "Bacalhau à Brás on a plate",
+    "fetes": "Whole chickens and platters ready for a party"
+  }
+}

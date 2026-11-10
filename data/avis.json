@@ -1,0 +1,4 @@
+{
+  "_doc": "Avis clients affichés sur le site. VIDE tant que le restaurant n'a pas donné son accord pour reprendre de vrais avis Google : n'en inventez aucun. Format : { \"author\": \"Prénom N.\", \"date\": \"AAAA-MM\", \"rating\": 5, \"text\": \"…\", \"lang\": \"fr\" }.",
+  "items": []
+}

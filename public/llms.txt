@@ -1,0 +1,18 @@
+# Le Piri Piri
+
+> Restauration rapide portugaise au 2 ter rue de l'Eau, 80480 Pont-de-Metz, à 10 minutes d'Amiens (Somme). Poulet piri piri grillé à la braise avec sauce piri piri maison, grillades portugaises (febras, espetada, entremeada, chouriço, bifana), bacalhau (à Brás, grillé, pastéis de bacalhau), assiettes, pastéis de nata. À emporter ou sur place ; commandes pour les fêtes et les groupes sur devis. Ouvert en 2022 par Philippe Salgado, d'une famille portugaise installée dans la région d'Amiens depuis les années 1970.
+
+- Téléphone : 03 22 44 76 51 (+33 3 22 44 76 51)
+- Note Google : 4,5/5 sur 109 avis (relevée le 10 novembre 2026)
+- Commande en ligne : https://le-piri-piri.vercel.app/fr#commander (paiement au retrait)
+- Horaires : à confirmer avec le restaurant ; appeler avant de venir
+- Langues du site : français, anglais, portugais
+
+## Pages
+
+- [Accueil (FR)](https://le-piri-piri.vercel.app/fr)
+- [La carte](https://le-piri-piri.vercel.app/fr/carte)
+- [Restaurant portugais près d'Amiens](https://le-piri-piri.vercel.app/fr/restaurant-portugais-amiens)
+- [Poulet piri piri à Amiens](https://le-piri-piri.vercel.app/fr/poulet-piri-piri-amiens)
+- [English](https://le-piri-piri.vercel.app/en)
+- [Português](https://le-piri-piri.vercel.app/pt)
