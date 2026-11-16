@@ -20,8 +20,12 @@
     "facebook": "Le Piri Piri no Facebook",
     "shortcuts": "Atalhos"
   },
-  "intro": { "skip": "Saltar" },
-  "announce": { "close": "Fechar a faixa" },
+  "intro": {
+    "skip": "Saltar"
+  },
+  "announce": {
+    "close": "Fechar a faixa"
+  },
   "hero": {
     "eyebrow": "Cozinha portuguesa · Pont-de-Metz, Amiens",
     "title": "Portugal, grelhado na brasa.",
@@ -55,10 +59,22 @@
   "services": {
     "title": "Os nossos serviços",
     "items": [
-      { "title": "Para levar", "text": "Encomende online e venha buscar." },
-      { "title": "Grelhado na brasa", "text": "Na grelha, mesmo por cima das brasas." },
-      { "title": "Grupos e festas", "text": "Frangos inteiros e travessas, por orçamento." },
-      { "title": "Por telefone", "text": "03 22 44 76 51, no horário de abertura." }
+      {
+        "title": "Para levar",
+        "text": "Encomende online e venha buscar."
+      },
+      {
+        "title": "Grelhado na brasa",
+        "text": "Na grelha, mesmo por cima das brasas."
+      },
+      {
+        "title": "Grupos e festas",
+        "text": "Frangos inteiros e travessas, por orçamento."
+      },
+      {
+        "title": "Por telefone",
+        "text": "03 22 44 76 51, no horário de abertura."
+      }
     ]
   },
   "carte": {
@@ -93,31 +109,106 @@
     "party": "Para festas"
   },
   "products": {
-    "poulet-entier": { "name": "Frango inteiro piri piri", "desc": "Aberto, grelhado na brasa e pincelado com o nosso molho piri piri caseiro. Para 3 ou 4 pessoas." },
-    "demi-poulet": { "name": "Meio frango piri piri", "desc": "Metade do frango, a mesma brasa, o mesmo molho. O prato que fez a casa." },
-    "cuisses": { "name": "Coxas de frango grelhadas", "desc": "Marinadas em alho e colorau, grelhadas até a pele estalar." },
-    "febras": { "name": "Febras", "desc": "Fatias finas de porco marinadas em alho e vinho branco, na grelha." },
-    "espetada": { "name": "Espetada", "desc": "Espetada de vaca com louro, grelhada na brasa." },
-    "entremeada": { "name": "Entremeada", "desc": "Entremeada grelhada com sal grosso, estaladiça por fora, macia por dentro." },
-    "chourico": { "name": "Chouriço assado", "desc": "Chouriço fumado português, assado na brasa." },
-    "bifana": { "name": "Bifana", "desc": "A sandes de Lisboa: porco marinado no pão, com mostarda ou piri piri." },
-    "bacalhau-bras": { "name": "Bacalhau à Brás", "desc": "Bacalhau desfiado, batata palha, ovo, cebola e azeitonas pretas." },
-    "bacalhau-grelhado": { "name": "Bacalhau grelhado", "desc": "Lombo de bacalhau grelhado, batata a murro, azeite e alho." },
-    "pasteis-bacalhau": { "name": "Pastéis de bacalhau", "desc": "Bacalhau, batata e salsa. À unidade ou à dúzia." },
-    "assiette-piri": { "name": "Prato piri piri", "desc": "Meio frango, batatas fritas caseiras, arroz e salada. O prato completo." },
-    "assiette-mixte": { "name": "Prato misto", "desc": "Frango, febras e chouriço no mesmo prato, com batatas fritas e salada." },
-    "prato-do-dia": { "name": "Prato do dia", "desc": "Um prato de família português, diferente todos os dias. Pergunte ao balcão." },
-    "frites": { "name": "Batatas fritas caseiras", "desc": "Cortadas cá, bem douradas." },
-    "arroz": { "name": "Arroz português", "desc": "Arroz de tomate com louro, como em casa." },
-    "salade": { "name": "Salada mista", "desc": "Tomate, cebola, alface e azeite." },
-    "sauce-piri": { "name": "Molho piri piri caseiro", "desc": "O nosso piri piri, num frasco, para quem quer mais." },
-    "pastel-nata": { "name": "Pastel de nata", "desc": "Creme em massa folhada, com canela se quiser." },
-    "bola-berlim": { "name": "Bola de Berlim", "desc": "Recheada com creme pasteleiro, polvilhada com açúcar." },
-    "arroz-doce": { "name": "Arroz doce", "desc": "Com limão e canela desenhada por cima." },
-    "sumol": { "name": "Sumol", "desc": "O refrigerante português, ananás ou laranja." },
-    "compal": { "name": "Compal", "desc": "Néctar de fruta, pêssego ou manga." },
-    "super-bock": { "name": "Super Bock", "desc": "A loira do Porto. Seja responsável, beba com moderação." },
-    "soft": { "name": "Refrigerantes e águas", "desc": "Cola, ice tea, água lisa ou com gás." }
+    "poulet-entier": {
+      "name": "Frango inteiro piri piri",
+      "desc": "Aberto, grelhado na brasa e pincelado com o nosso molho piri piri caseiro. Para 3 ou 4 pessoas."
+    },
+    "demi-poulet": {
+      "name": "Meio frango piri piri",
+      "desc": "Metade do frango, a mesma brasa, o mesmo molho. O prato que fez a casa."
+    },
+    "cuisses": {
+      "name": "Coxas de frango grelhadas",
+      "desc": "Marinadas em alho e colorau, grelhadas até a pele estalar."
+    },
+    "febras": {
+      "name": "Febras",
+      "desc": "Fatias finas de porco marinadas em alho e vinho branco, na grelha."
+    },
+    "espetada": {
+      "name": "Espetada",
+      "desc": "Espetada de vaca com louro, grelhada na brasa."
+    },
+    "entremeada": {
+      "name": "Entremeada",
+      "desc": "Entremeada grelhada com sal grosso, estaladiça por fora, macia por dentro."
+    },
+    "chourico": {
+      "name": "Chouriço assado",
+      "desc": "Chouriço fumado português, assado na brasa."
+    },
+    "bifana": {
+      "name": "Bifana",
+      "desc": "A sandes de Lisboa: porco marinado no pão, com mostarda ou piri piri."
+    },
+    "bacalhau-bras": {
+      "name": "Bacalhau à Brás",
+      "desc": "Bacalhau desfiado, batata palha, ovo, cebola e azeitonas pretas."
+    },
+    "bacalhau-grelhado": {
+      "name": "Bacalhau grelhado",
+      "desc": "Lombo de bacalhau grelhado, batata a murro, azeite e alho."
+    },
+    "pasteis-bacalhau": {
+      "name": "Pastéis de bacalhau",
+      "desc": "Bacalhau, batata e salsa. À unidade ou à dúzia."
+    },
+    "assiette-piri": {
+      "name": "Prato piri piri",
+      "desc": "Meio frango, batatas fritas caseiras, arroz e salada. O prato completo."
+    },
+    "assiette-mixte": {
+      "name": "Prato misto",
+      "desc": "Frango, febras e chouriço no mesmo prato, com batatas fritas e salada."
+    },
+    "prato-do-dia": {
+      "name": "Prato do dia",
+      "desc": "Um prato de família português, diferente todos os dias. Pergunte ao balcão."
+    },
+    "frites": {
+      "name": "Batatas fritas caseiras",
+      "desc": "Cortadas cá, bem douradas."
+    },
+    "arroz": {
+      "name": "Arroz português",
+      "desc": "Arroz de tomate com louro, como em casa."
+    },
+    "salade": {
+      "name": "Salada mista",
+      "desc": "Tomate, cebola, alface e azeite."
+    },
+    "sauce-piri": {
+      "name": "Molho piri piri caseiro",
+      "desc": "O nosso piri piri, num frasco, para quem quer mais."
+    },
+    "pastel-nata": {
+      "name": "Pastel de nata",
+      "desc": "Creme em massa folhada, com canela se quiser."
+    },
+    "bola-berlim": {
+      "name": "Bola de Berlim",
+      "desc": "Recheada com creme pasteleiro, polvilhada com açúcar."
+    },
+    "arroz-doce": {
+      "name": "Arroz doce",
+      "desc": "Com limão e canela desenhada por cima."
+    },
+    "sumol": {
+      "name": "Sumol",
+      "desc": "O refrigerante português, ananás ou laranja."
+    },
+    "compal": {
+      "name": "Compal",
+      "desc": "Néctar de fruta, pêssego ou manga."
+    },
+    "super-bock": {
+      "name": "Super Bock",
+      "desc": "A loira do Porto. Seja responsável, beba com moderação."
+    },
+    "soft": {
+      "name": "Refrigerantes e águas",
+      "desc": "Cola, ice tea, água lisa ou com gás."
+    }
   },
   "blocks": {
     "braise": {
@@ -143,7 +234,13 @@
     "eyebrow": "Avaliações",
     "title": "O que dizem os nossos clientes",
     "intro": "O que mais se repete nas avaliações do Google:",
-    "themes": ["O ponto do frango", "Pratos bem servidos", "O cheiro a grelhado", "O bacalhau", "O sabor a viagem"],
+    "themes": [
+      "O ponto do frango",
+      "Pratos bem servidos",
+      "O cheiro a grelhado",
+      "O bacalhau",
+      "O sabor a viagem"
+    ],
     "google": "Ler as avaliações no Google"
   },
   "order": {
@@ -154,7 +251,11 @@
     "callText": "Ligue-nos no horário de abertura.",
     "callCta": "Ligar",
     "modesTitle": "A sua encomenda",
-    "modes": { "emporter": "Para levar", "surplace": "Comer cá", "groupe": "Festa ou grupo (orçamento)" },
+    "modes": {
+      "emporter": "Para levar",
+      "surplace": "Comer cá",
+      "groupe": "Festa ou grupo (orçamento)"
+    },
     "itemsTitle": "Os seus pratos",
     "itemsOptional": "Os seus pratos (opcional)",
     "dish": "Prato",
@@ -174,7 +275,11 @@
     "noSlots": "Já não há horários neste dia: escolha outro dia.",
     "closedDay": "O restaurante está fechado nesse dia (horário a confirmar connosco).",
     "prefsTitle": "O piri piri",
-    "prefs": { "mild": "Suave", "hot": "Bem picante", "sauceApart": "Molho à parte" },
+    "prefs": {
+      "mild": "Suave",
+      "hot": "Bem picante",
+      "sauceApart": "Molho à parte"
+    },
     "message": "Observações",
     "messagePh": "Alergia, como cortar o frango, talheres…",
     "messagePhGroup": "Tipo de festa, o que gostaria, alguma alergia…",
@@ -246,19 +351,45 @@
     "parkingText": "Estacionamento na rua e nas imediações (a confirmar).",
     "route": "Como chegar",
     "mapTitle": "Le Piri Piri no mapa",
-    "days": ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo"],
+    "days": [
+      "Segunda-feira",
+      "Terça-feira",
+      "Quarta-feira",
+      "Quinta-feira",
+      "Sexta-feira",
+      "Sábado",
+      "Domingo"
+    ],
     "closed": "Fechado"
   },
   "faq": {
     "eyebrow": "Perguntas frequentes",
     "title": "É bom saber",
     "items": [
-      { "q": "É preciso encomendar com antecedência?", "a": "Não é obrigatório, mas é mais rápido: encomende online ou por telefone e escolha a hora de levantamento. Para um frango inteiro nas horas de ponta, conte com 30 minutos." },
-      { "q": "Pode-se comer no restaurante?", "a": "Sim, pode comer cá. Escolha «Comer cá» no formulário se encomendar com antecedência." },
-      { "q": "Como se paga?", "a": "Ao balcão, no levantamento. Os meios de pagamento aceites estão por confirmar com o restaurante (cartão, numerário, vales de refeição)." },
-      { "q": "O piri piri é muito picante?", "a": "A escolha é sua: suave, normal ou bem picante. O molho também pode vir à parte." },
-      { "q": "Fazem encomendas para festas e grupos?", "a": "Sim: frangos inteiros, grelhados, pastéis de bacalhau e de nata. Peça orçamento com pelo menos 2 dias de antecedência, online ou por telefone." },
-      { "q": "Onde estacionar?", "a": "O restaurante fica no 2 ter rue de l'Eau, em Pont-de-Metz, a 10 minutos de Amiens. Há estacionamento na rua e nas imediações." }
+      {
+        "q": "É preciso encomendar com antecedência?",
+        "a": "Não é obrigatório, mas é mais rápido: encomende online ou por telefone e escolha a hora de levantamento. Para um frango inteiro nas horas de ponta, conte com 30 minutos."
+      },
+      {
+        "q": "Pode-se comer no restaurante?",
+        "a": "Sim, pode comer cá. Escolha «Comer cá» no formulário se encomendar com antecedência."
+      },
+      {
+        "q": "Como se paga?",
+        "a": "Ao balcão, no levantamento. Os meios de pagamento aceites estão por confirmar com o restaurante (cartão, numerário, vales de refeição)."
+      },
+      {
+        "q": "O piri piri é muito picante?",
+        "a": "A escolha é sua: suave, normal ou bem picante. O molho também pode vir à parte."
+      },
+      {
+        "q": "Fazem encomendas para festas e grupos?",
+        "a": "Sim: frangos inteiros, grelhados, pastéis de bacalhau e de nata. Peça orçamento com pelo menos 2 dias de antecedência, online ou por telefone."
+      },
+      {
+        "q": "Onde estacionar?",
+        "a": "O restaurante fica no 2 ter rue de l'Eau, em Pont-de-Metz, a 10 minutos de Amiens. Há estacionamento na rua e nas imediações."
+      }
     ]
   },
   "footer": {
@@ -286,13 +417,28 @@
       "eyebrow": "Pont-de-Metz · Amiens",
       "lead": "Cozinha portuguesa de família, a 10 minutos do centro de Amiens.",
       "sections": [
-        { "h": "Cozinha de família", "p": "O Le Piri Piri abriu em 2022 em Pont-de-Metz. Ao balcão está Philippe Salgado, cujos pais chegaram de Portugal à região de Amiens no início dos anos 70. A cozinha é a das refeições em família: simples, generosa e caseira." },
-        { "h": "Os clássicos de Portugal", "p": "Frango piri piri na brasa, febras, espetada, entremeada, chouriço assado. No peixe, o bacalhau: à Brás, grelhado e em pastéis. E para acabar, um pastel de nata." },
-        { "h": "Comer cá ou levar", "p": "Encomende online ou por telefone, escolha a hora e venha buscar. Para festas e grupos, preparamos frangos inteiros e travessas por orçamento." }
+        {
+          "h": "Cozinha de família",
+          "p": "O Le Piri Piri abriu em 2022 em Pont-de-Metz. Ao balcão está Philippe Salgado, cujos pais chegaram de Portugal à região de Amiens no início dos anos 70. A cozinha é a das refeições em família: simples, generosa e caseira."
+        },
+        {
+          "h": "Os clássicos de Portugal",
+          "p": "Frango piri piri na brasa, febras, espetada, entremeada, chouriço assado. No peixe, o bacalhau: à Brás, grelhado e em pastéis. E para acabar, um pastel de nata."
+        },
+        {
+          "h": "Comer cá ou levar",
+          "p": "Encomende online ou por telefone, escolha a hora e venha buscar. Para festas e grupos, preparamos frangos inteiros e travessas por orçamento."
+        }
       ],
       "faq": [
-        { "q": "Onde há um restaurante português perto de Amiens?", "a": "O Le Piri Piri fica no 2 ter rue de l'Eau, em Pont-de-Metz, a 10 minutos de carro do centro de Amiens." },
-        { "q": "Onde comer bacalhau perto de Amiens?", "a": "No Le Piri Piri: bacalhau à Brás, bacalhau grelhado e pastéis de bacalhau, para comer cá ou levar." }
+        {
+          "q": "Onde há um restaurante português perto de Amiens?",
+          "a": "O Le Piri Piri fica no 2 ter rue de l'Eau, em Pont-de-Metz, a 10 minutos de carro do centro de Amiens."
+        },
+        {
+          "q": "Onde comer bacalhau perto de Amiens?",
+          "a": "No Le Piri Piri: bacalhau à Brás, bacalhau grelhado e pastéis de bacalhau, para comer cá ou levar."
+        }
       ],
       "cta": "Ver a ementa"
     },
@@ -304,13 +450,28 @@
       "eyebrow": "Frango piri piri",
       "lead": "Aberto, grelhado na brasa, com molho piri piri caseiro.",
       "sections": [
-        { "h": "O verdadeiro frango piri piri", "p": "Em Portugal, quando se compra um frango assado, perguntam: com ou sem piri piri? Aqui é igual. O frango é aberto, marinado, grelhado na brasa e pincelado com o nosso molho caseiro." },
-        { "h": "Inteiro, meio ou no prato", "p": "O frango inteiro dá para 3 ou 4 pessoas. O meio frango é uma refeição, com batatas fritas caseiras e arroz português. O prato piri piri junta tudo numa só caixa." },
-        { "h": "Encomende antes de vir", "p": "Escolha a hora de levantamento online e o frango estará pronto. Para um aniversário ou um jogo, encomende vários frangos inteiros com pelo menos 2 dias de antecedência." }
+        {
+          "h": "O verdadeiro frango piri piri",
+          "p": "Em Portugal, quando se compra um frango assado, perguntam: com ou sem piri piri? Aqui é igual. O frango é aberto, marinado, grelhado na brasa e pincelado com o nosso molho caseiro."
+        },
+        {
+          "h": "Inteiro, meio ou no prato",
+          "p": "O frango inteiro dá para 3 ou 4 pessoas. O meio frango é uma refeição, com batatas fritas caseiras e arroz português. O prato piri piri junta tudo numa só caixa."
+        },
+        {
+          "h": "Encomende antes de vir",
+          "p": "Escolha a hora de levantamento online e o frango estará pronto. Para um aniversário ou um jogo, encomende vários frangos inteiros com pelo menos 2 dias de antecedência."
+        }
       ],
       "faq": [
-        { "q": "Onde comer frango piri piri em Amiens?", "a": "No Le Piri Piri, 2 ter rue de l'Eau, em Pont-de-Metz, a 10 minutos do centro de Amiens. Para comer cá ou levar." },
-        { "q": "Posso escolher o picante?", "a": "Sim: suave, normal ou bem picante, e o molho pode vir à parte." }
+        {
+          "q": "Onde comer frango piri piri em Amiens?",
+          "a": "No Le Piri Piri, 2 ter rue de l'Eau, em Pont-de-Metz, a 10 minutos do centro de Amiens. Para comer cá ou levar."
+        },
+        {
+          "q": "Posso escolher o picante?",
+          "a": "Sim: suave, normal ou bem picante, e o molho pode vir à parte."
+        }
       ],
       "cta": "Encomendar um frango"
     },
@@ -329,14 +490,18 @@
       "toConfirm": "a preencher"
     }
   },
-  "jsonld": { "takeaway": "Para levar", "dineIn": "Refeições no local", "groups": "Encomendas para grupos e festas" },
+  "jsonld": {
+    "takeaway": "Para levar",
+    "dineIn": "Refeições no local",
+    "groups": "Encomendas para grupos e festas"
+  },
   "alt": {
-    "hero": "Frango piri piri grelhado na brasa no Le Piri Piri, em Pont-de-Metz",
-    "facade": "A fachada do Le Piri Piri, rue de l'Eau, Pont-de-Metz",
-    "interieur": "A sala do Le Piri Piri",
+    "hero": "Frango piri piri grelhado com batatas fritas caseiras e arroz, no Le Piri Piri",
+    "facade": "A placa do Le Piri Piri, churrasqueira portuguesa: rotisserie e barbecue",
+    "interieur": "A sala do Le Piri Piri, paredes vermelhas e cadeiras amarelas",
     "equipe": "A equipa do Le Piri Piri ao balcão",
-    "braise": "Frangos na grelha, por cima das brasas",
+    "braise": "Frango piri piri aberto, grelhado e cortado numa tábua",
     "bacalhau": "Bacalhau à Brás servido no prato",
-    "fetes": "Frangos inteiros e travessas preparados para uma festa"
+    "fetes": "Uma mesa de pratos portugueses no Le Piri Piri: bacalhau, frango grelhado, batatas fritas"
   }
 }

@@ -1,1 +1,126 @@
-{}
+{
+ "/media/hero/hero.jpg": [
+  1016,
+  1600
+ ],
+ "/media/plats/arroz-doce.jpg": [
+  1060,
+  1600
+ ],
+ "/media/plats/arroz.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/assiette-mixte.jpg": [
+  1600,
+  1200
+ ],
+ "/media/plats/assiette-piri.jpg": [
+  1600,
+  1200
+ ],
+ "/media/plats/bacalhau-bras.jpg": [
+  1200,
+  1600
+ ],
+ "/media/plats/bacalhau-grelhado.jpg": [
+  900,
+  1600
+ ],
+ "/media/plats/bifana.jpg": [
+  1200,
+  1600
+ ],
+ "/media/plats/bola-berlim.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/chourico.jpg": [
+  900,
+  1598
+ ],
+ "/media/plats/compal.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/cuisses.jpg": [
+  1200,
+  1600
+ ],
+ "/media/plats/demi-poulet.jpg": [
+  1600,
+  1200
+ ],
+ "/media/plats/entremeada.jpg": [
+  1600,
+  1200
+ ],
+ "/media/plats/espetada.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/febras.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/fetes.jpg": [
+  1200,
+  1600
+ ],
+ "/media/plats/frites.jpg": [
+  1500,
+  1000
+ ],
+ "/media/plats/pasteis-bacalhau.jpg": [
+  1200,
+  1600
+ ],
+ "/media/plats/pastel-nata.jpg": [
+  900,
+  1600
+ ],
+ "/media/plats/poulet-entier.jpg": [
+  1200,
+  1600
+ ],
+ "/media/plats/prato-do-dia.jpg": [
+  1080,
+  865
+ ],
+ "/media/plats/salade.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/sauce-piri.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/soft.jpg": [
+  1600,
+  1200
+ ],
+ "/media/plats/sumol.jpg": [
+  739,
+  1600
+ ],
+ "/media/plats/super-bock.jpg": [
+  902,
+  1600
+ ],
+ "/media/grill/grillades.jpg": [
+  1024,
+  465
+ ],
+ "/media/grill/poulet-braise.jpg": [
+  1280,
+  600
+ ],
+ "/media/facade/facade.jpg": [
+  1200,
+  1600
+ ],
+ "/media/facade/interieur.jpg": [
+  1200,
+  1600
+ ]
+}

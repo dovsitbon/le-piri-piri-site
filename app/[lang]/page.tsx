@@ -113,7 +113,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </div>
           <div className={`relative ${hero ? "min-h-[46svh]" : ""} lg:min-h-0`}>
             {hero ? (
-              <Image src={hero.src} alt={d.alt.hero} width={hero.width} height={hero.height} sizes="(min-width: 1024px) 48vw, 100vw" quality={80} priority fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
+              <Image src={hero.src} alt={d.alt.hero} width={hero.width} height={hero.height} sizes="(min-width: 1024px) 48vw, 100vw" quality={80} priority fetchPriority="high" className="absolute inset-0 h-full w-full object-cover object-[50%_78%]" />
             ) : (
               // Emplacement de la photo du hero (assets/hero/hero.jpg + npm run media) : en attendant, le carreau de la maison en grand
               <div className="hidden h-full items-center justify-center lg:flex" data-photo-slot="/media/hero/hero.jpg">
@@ -273,7 +273,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               </a>
             </Reveal>
             <Reveal delay={0.05} className="flex min-h-96 flex-col border border-line bg-white">
-              <Photo paths={["/media/facade/facade.jpg"]} alt={d.alt.facade} illus="facade" tint="warm" sizes="(min-width: 1024px) 50vw, 100vw" className="aspect-[16/7]" illusClassName="h-1/2 w-1/2 max-h-28" />
+              <Photo paths={["/media/facade/facade.jpg"]} alt={d.alt.facade} illus="facade" tint="warm" sizes="(min-width: 1024px) 50vw, 100vw" className="aspect-[16/7]" imgClassName="object-[50%_30%]" illusClassName="h-1/2 w-1/2 max-h-28" />
               <iframe title={d.infos.mapTitle} src={site.mapsEmbed} loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="min-h-80 w-full flex-1 border-0" />
             </Reveal>
           </div>

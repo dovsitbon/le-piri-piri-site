@@ -20,8 +20,12 @@
     "facebook": "Le Piri Piri sur Facebook",
     "shortcuts": "Raccourcis"
   },
-  "intro": { "skip": "Passer" },
-  "announce": { "close": "Fermer le bandeau" },
+  "intro": {
+    "skip": "Passer"
+  },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
   "hero": {
     "eyebrow": "Cuisine portugaise · Pont-de-Metz, Amiens",
     "title": "Le Portugal, grillé à la braise.",
@@ -55,10 +59,22 @@
   "services": {
     "title": "Nos services",
     "items": [
-      { "title": "À emporter", "text": "Commandez en ligne, passez récupérer." },
-      { "title": "Grillé à la braise", "text": "Sur la grille, au-dessus des braises." },
-      { "title": "Groupes et fêtes", "text": "Poulets entiers et plateaux, sur devis." },
-      { "title": "Par téléphone", "text": "03 22 44 76 51, aux heures d'ouverture." }
+      {
+        "title": "À emporter",
+        "text": "Commandez en ligne, passez récupérer."
+      },
+      {
+        "title": "Grillé à la braise",
+        "text": "Sur la grille, au-dessus des braises."
+      },
+      {
+        "title": "Groupes et fêtes",
+        "text": "Poulets entiers et plateaux, sur devis."
+      },
+      {
+        "title": "Par téléphone",
+        "text": "03 22 44 76 51, aux heures d'ouverture."
+      }
     ]
   },
   "carte": {
@@ -93,31 +109,106 @@
     "party": "Pour les fêtes"
   },
   "products": {
-    "poulet-entier": { "name": "Poulet entier piri piri", "desc": "Ouvert en crapaudine, grillé à la braise, badigeonné de sauce piri piri maison. Pour 3 ou 4." },
-    "demi-poulet": { "name": "Demi-poulet piri piri", "desc": "La moitié, même cuisson, même sauce. Le plat qui a fait la maison." },
-    "cuisses": { "name": "Cuisses de poulet grillées", "desc": "Marinées ail et paprika, grillées jusqu'à la peau croustillante." },
-    "febras": { "name": "Febras", "desc": "Fines tranches de porc marinées à l'ail et au vin blanc, saisies sur la grille." },
-    "espetada": { "name": "Espetada", "desc": "Brochette de bœuf au laurier, grillée à la braise." },
-    "entremeada": { "name": "Entremeada", "desc": "Poitrine de porc grillée, gros sel, croustillante dehors, fondante dedans." },
-    "chourico": { "name": "Chouriço assado", "desc": "Saucisse fumée portugaise, grillée à la braise." },
-    "bifana": { "name": "Bifana", "desc": "Le sandwich de Lisbonne : porc mariné dans un petit pain, moutarde ou piri piri." },
-    "bacalhau-bras": { "name": "Bacalhau à Brás", "desc": "Morue effilochée, pommes de terre allumettes, œuf, oignon, olives noires." },
-    "bacalhau-grelhado": { "name": "Morue grillée", "desc": "Dos de morue grillé, pommes de terre écrasées, huile d'olive et ail." },
-    "pasteis-bacalhau": { "name": "Pastéis de bacalhau", "desc": "Beignets de morue et pomme de terre, persil. À l'unité ou à la douzaine." },
-    "assiette-piri": { "name": "Assiette piri piri", "desc": "Demi-poulet, frites maison, riz et salade. L'assiette complète." },
-    "assiette-mixte": { "name": "Assiette mixte", "desc": "Poulet, febras et chouriço sur la même assiette, avec frites et salade." },
-    "prato-do-dia": { "name": "Plat du jour", "desc": "Un plat de famille portugais, différent chaque jour. Demandez au comptoir." },
-    "frites": { "name": "Frites maison", "desc": "Coupées sur place, dorées." },
-    "arroz": { "name": "Riz portugais", "desc": "Riz à la tomate et au laurier, comme au pays." },
-    "salade": { "name": "Salade mixte", "desc": "Tomate, oignon, laitue, huile d'olive." },
-    "sauce-piri": { "name": "Sauce piri piri maison", "desc": "Notre piment, à la maison. En pot, pour ceux qui en veulent encore." },
-    "pastel-nata": { "name": "Pastel de nata", "desc": "Flan à la crème dans sa pâte feuilletée, cannelle si vous voulez." },
-    "bola-berlim": { "name": "Bola de Berlim", "desc": "Beignet garni de crème pâtissière, sucré à la portugaise." },
-    "arroz-doce": { "name": "Arroz doce", "desc": "Riz au lait au citron, cannelle dessinée sur le dessus." },
-    "sumol": { "name": "Sumol", "desc": "Le soda pétillant portugais, ananas ou orange." },
-    "compal": { "name": "Compal", "desc": "Nectar de fruits, pêche ou mangue." },
-    "super-bock": { "name": "Super Bock", "desc": "La blonde de Porto. L'abus d'alcool est dangereux pour la santé." },
-    "soft": { "name": "Sodas et eaux", "desc": "Cola, thé glacé, eau plate ou gazeuse." }
+    "poulet-entier": {
+      "name": "Poulet entier piri piri",
+      "desc": "Ouvert en crapaudine, grillé à la braise, badigeonné de sauce piri piri maison. Pour 3 ou 4."
+    },
+    "demi-poulet": {
+      "name": "Demi-poulet piri piri",
+      "desc": "La moitié, même cuisson, même sauce. Le plat qui a fait la maison."
+    },
+    "cuisses": {
+      "name": "Cuisses de poulet grillées",
+      "desc": "Marinées ail et paprika, grillées jusqu'à la peau croustillante."
+    },
+    "febras": {
+      "name": "Febras",
+      "desc": "Fines tranches de porc marinées à l'ail et au vin blanc, saisies sur la grille."
+    },
+    "espetada": {
+      "name": "Espetada",
+      "desc": "Brochette de bœuf au laurier, grillée à la braise."
+    },
+    "entremeada": {
+      "name": "Entremeada",
+      "desc": "Poitrine de porc grillée, gros sel, croustillante dehors, fondante dedans."
+    },
+    "chourico": {
+      "name": "Chouriço assado",
+      "desc": "Saucisse fumée portugaise, grillée à la braise."
+    },
+    "bifana": {
+      "name": "Bifana",
+      "desc": "Le sandwich de Lisbonne : porc mariné dans un petit pain, moutarde ou piri piri."
+    },
+    "bacalhau-bras": {
+      "name": "Bacalhau à Brás",
+      "desc": "Morue effilochée, pommes de terre allumettes, œuf, oignon, olives noires."
+    },
+    "bacalhau-grelhado": {
+      "name": "Morue grillée",
+      "desc": "Dos de morue grillé, pommes de terre écrasées, huile d'olive et ail."
+    },
+    "pasteis-bacalhau": {
+      "name": "Pastéis de bacalhau",
+      "desc": "Beignets de morue et pomme de terre, persil. À l'unité ou à la douzaine."
+    },
+    "assiette-piri": {
+      "name": "Assiette piri piri",
+      "desc": "Demi-poulet, frites maison, riz et salade. L'assiette complète."
+    },
+    "assiette-mixte": {
+      "name": "Assiette mixte",
+      "desc": "Poulet, febras et chouriço sur la même assiette, avec frites et salade."
+    },
+    "prato-do-dia": {
+      "name": "Plat du jour",
+      "desc": "Un plat de famille portugais, différent chaque jour. Demandez au comptoir."
+    },
+    "frites": {
+      "name": "Frites maison",
+      "desc": "Coupées sur place, dorées."
+    },
+    "arroz": {
+      "name": "Riz portugais",
+      "desc": "Riz à la tomate et au laurier, comme au pays."
+    },
+    "salade": {
+      "name": "Salade mixte",
+      "desc": "Tomate, oignon, laitue, huile d'olive."
+    },
+    "sauce-piri": {
+      "name": "Sauce piri piri maison",
+      "desc": "Notre piment, à la maison. En pot, pour ceux qui en veulent encore."
+    },
+    "pastel-nata": {
+      "name": "Pastel de nata",
+      "desc": "Flan à la crème dans sa pâte feuilletée, cannelle si vous voulez."
+    },
+    "bola-berlim": {
+      "name": "Bola de Berlim",
+      "desc": "Beignet garni de crème pâtissière, sucré à la portugaise."
+    },
+    "arroz-doce": {
+      "name": "Arroz doce",
+      "desc": "Riz au lait au citron, cannelle dessinée sur le dessus."
+    },
+    "sumol": {
+      "name": "Sumol",
+      "desc": "Le soda pétillant portugais, ananas ou orange."
+    },
+    "compal": {
+      "name": "Compal",
+      "desc": "Nectar de fruits, pêche ou mangue."
+    },
+    "super-bock": {
+      "name": "Super Bock",
+      "desc": "La blonde de Porto. L'abus d'alcool est dangereux pour la santé."
+    },
+    "soft": {
+      "name": "Sodas et eaux",
+      "desc": "Cola, thé glacé, eau plate ou gazeuse."
+    }
   },
   "blocks": {
     "braise": {
@@ -143,7 +234,13 @@
     "eyebrow": "Avis",
     "title": "Ce que nos clients en disent",
     "intro": "Ce qui revient le plus souvent dans les avis Google :",
-    "themes": ["La cuisson du poulet", "Les assiettes copieuses", "L'odeur de grillade", "Le bacalhau", "Le goût du voyage"],
+    "themes": [
+      "La cuisson du poulet",
+      "Les assiettes copieuses",
+      "L'odeur de grillade",
+      "Le bacalhau",
+      "Le goût du voyage"
+    ],
     "google": "Lire les avis sur Google"
   },
   "order": {
@@ -154,7 +251,11 @@
     "callText": "Appelez-nous aux heures d'ouverture.",
     "callCta": "Appeler",
     "modesTitle": "Votre commande",
-    "modes": { "emporter": "À emporter", "surplace": "Sur place", "groupe": "Fête ou groupe (devis)" },
+    "modes": {
+      "emporter": "À emporter",
+      "surplace": "Sur place",
+      "groupe": "Fête ou groupe (devis)"
+    },
     "itemsTitle": "Vos plats",
     "itemsOptional": "Vos plats (facultatif)",
     "dish": "Plat",
@@ -174,7 +275,11 @@
     "noSlots": "Plus de créneau ce jour-là : choisissez un autre jour.",
     "closedDay": "Le restaurant est fermé ce jour-là (horaires à confirmer avec nous).",
     "prefsTitle": "Le piri piri",
-    "prefs": { "mild": "Doux", "hot": "Bien relevé", "sauceApart": "Sauce à part" },
+    "prefs": {
+      "mild": "Doux",
+      "hot": "Bien relevé",
+      "sauceApart": "Sauce à part"
+    },
     "message": "Remarques",
     "messagePh": "Allergie, découpe du poulet, couverts…",
     "messagePhGroup": "Le type de fête, vos envies, une allergie…",
@@ -246,19 +351,45 @@
     "parkingText": "Stationnement dans la rue et aux abords (à confirmer).",
     "route": "Itinéraire",
     "mapTitle": "Le Piri Piri sur la carte",
-    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
     "closed": "Fermé"
   },
   "faq": {
     "eyebrow": "Questions fréquentes",
     "title": "Bon à savoir",
     "items": [
-      { "q": "Faut-il commander à l'avance ?", "a": "Ce n'est pas obligatoire, mais c'est plus rapide : commandez en ligne ou par téléphone et choisissez votre heure de retrait. Pour un poulet entier aux heures de pointe, prévoyez 30 minutes." },
-      { "q": "Peut-on manger sur place ?", "a": "Oui, vous pouvez manger sur place. Indiquez « Sur place » dans le formulaire si vous commandez à l'avance." },
-      { "q": "Comment payer ?", "a": "Au comptoir, au moment du retrait. Les moyens de paiement acceptés sont à confirmer avec le restaurant (carte bancaire, espèces, titres-restaurant)." },
-      { "q": "Le piri piri, c'est très piquant ?", "a": "Vous choisissez : doux, normal ou bien relevé. La sauce peut aussi être servie à part." },
-      { "q": "Faites-vous des commandes pour les fêtes et les groupes ?", "a": "Oui : poulets entiers, grillades, pastéis de bacalhau et de nata. Demandez un devis au moins 2 jours à l'avance, en ligne ou par téléphone." },
-      { "q": "Où vous garer ?", "a": "Le restaurant est au 2 ter rue de l'Eau à Pont-de-Metz, à 10 minutes d'Amiens. On se gare dans la rue et aux abords." }
+      {
+        "q": "Faut-il commander à l'avance ?",
+        "a": "Ce n'est pas obligatoire, mais c'est plus rapide : commandez en ligne ou par téléphone et choisissez votre heure de retrait. Pour un poulet entier aux heures de pointe, prévoyez 30 minutes."
+      },
+      {
+        "q": "Peut-on manger sur place ?",
+        "a": "Oui, vous pouvez manger sur place. Indiquez « Sur place » dans le formulaire si vous commandez à l'avance."
+      },
+      {
+        "q": "Comment payer ?",
+        "a": "Au comptoir, au moment du retrait. Les moyens de paiement acceptés sont à confirmer avec le restaurant (carte bancaire, espèces, titres-restaurant)."
+      },
+      {
+        "q": "Le piri piri, c'est très piquant ?",
+        "a": "Vous choisissez : doux, normal ou bien relevé. La sauce peut aussi être servie à part."
+      },
+      {
+        "q": "Faites-vous des commandes pour les fêtes et les groupes ?",
+        "a": "Oui : poulets entiers, grillades, pastéis de bacalhau et de nata. Demandez un devis au moins 2 jours à l'avance, en ligne ou par téléphone."
+      },
+      {
+        "q": "Où vous garer ?",
+        "a": "Le restaurant est au 2 ter rue de l'Eau à Pont-de-Metz, à 10 minutes d'Amiens. On se gare dans la rue et aux abords."
+      }
     ]
   },
   "footer": {
@@ -286,13 +417,28 @@
       "eyebrow": "Pont-de-Metz · Amiens",
       "lead": "La cuisine portugaise de famille, à 10 minutes du centre d'Amiens.",
       "sections": [
-        { "h": "Une cuisine de famille", "p": "Le Piri Piri a ouvert en 2022 à Pont-de-Metz. Derrière le comptoir, Philippe Salgado, dont les parents sont arrivés du Portugal dans la région d'Amiens au début des années 1970. La cuisine est celle des repas de famille : simple, généreuse, faite maison." },
-        { "h": "Les classiques du Portugal", "p": "Poulet piri piri à la braise, febras, espetada, entremeada, chouriço assado. Côté poisson, la morue : bacalhau à Brás, morue grillée, pastéis de bacalhau. Et pour finir, un pastel de nata." },
-        { "h": "Sur place ou à emporter", "p": "Commandez en ligne ou par téléphone, choisissez l'heure, passez récupérer. Pour les fêtes et les groupes, nous préparons poulets entiers et plateaux sur devis." }
+        {
+          "h": "Une cuisine de famille",
+          "p": "Le Piri Piri a ouvert en 2022 à Pont-de-Metz. Derrière le comptoir, Philippe Salgado, dont les parents sont arrivés du Portugal dans la région d'Amiens au début des années 1970. La cuisine est celle des repas de famille : simple, généreuse, faite maison."
+        },
+        {
+          "h": "Les classiques du Portugal",
+          "p": "Poulet piri piri à la braise, febras, espetada, entremeada, chouriço assado. Côté poisson, la morue : bacalhau à Brás, morue grillée, pastéis de bacalhau. Et pour finir, un pastel de nata."
+        },
+        {
+          "h": "Sur place ou à emporter",
+          "p": "Commandez en ligne ou par téléphone, choisissez l'heure, passez récupérer. Pour les fêtes et les groupes, nous préparons poulets entiers et plateaux sur devis."
+        }
       ],
       "faq": [
-        { "q": "Où trouver un restaurant portugais près d'Amiens ?", "a": "Le Piri Piri est au 2 ter rue de l'Eau à Pont-de-Metz, à 10 minutes en voiture du centre d'Amiens." },
-        { "q": "Où manger du bacalhau près d'Amiens ?", "a": "Au Piri Piri : bacalhau à Brás, morue grillée et pastéis de bacalhau, sur place ou à emporter." }
+        {
+          "q": "Où trouver un restaurant portugais près d'Amiens ?",
+          "a": "Le Piri Piri est au 2 ter rue de l'Eau à Pont-de-Metz, à 10 minutes en voiture du centre d'Amiens."
+        },
+        {
+          "q": "Où manger du bacalhau près d'Amiens ?",
+          "a": "Au Piri Piri : bacalhau à Brás, morue grillée et pastéis de bacalhau, sur place ou à emporter."
+        }
       ],
       "cta": "Voir la carte"
     },
@@ -304,13 +450,28 @@
       "eyebrow": "Frango piri piri",
       "lead": "Ouvert en crapaudine, grillé à la braise, sauce piri piri maison.",
       "sections": [
-        { "h": "Le vrai poulet piri piri", "p": "Au Portugal, quand on achète un poulet grillé, on vous demande : avec ou sans piri piri ? Ici, c'est pareil. Le poulet est ouvert, mariné, grillé sur la braise, puis badigeonné de notre sauce au piment, faite maison." },
-        { "h": "Entier, demi ou en assiette", "p": "Le poulet entier se partage à 3 ou 4. Le demi-poulet se mange seul, avec des frites maison et du riz portugais. L'assiette piri piri réunit tout dans une seule boîte." },
-        { "h": "Commandez avant de venir", "p": "Choisissez l'heure de retrait en ligne et le poulet sera prêt. Pour un anniversaire ou un match, commandez plusieurs poulets entiers au moins 2 jours à l'avance." }
+        {
+          "h": "Le vrai poulet piri piri",
+          "p": "Au Portugal, quand on achète un poulet grillé, on vous demande : avec ou sans piri piri ? Ici, c'est pareil. Le poulet est ouvert, mariné, grillé sur la braise, puis badigeonné de notre sauce au piment, faite maison."
+        },
+        {
+          "h": "Entier, demi ou en assiette",
+          "p": "Le poulet entier se partage à 3 ou 4. Le demi-poulet se mange seul, avec des frites maison et du riz portugais. L'assiette piri piri réunit tout dans une seule boîte."
+        },
+        {
+          "h": "Commandez avant de venir",
+          "p": "Choisissez l'heure de retrait en ligne et le poulet sera prêt. Pour un anniversaire ou un match, commandez plusieurs poulets entiers au moins 2 jours à l'avance."
+        }
       ],
       "faq": [
-        { "q": "Où manger un poulet piri piri à Amiens ?", "a": "Au Piri Piri, 2 ter rue de l'Eau à Pont-de-Metz, à 10 minutes du centre d'Amiens. Sur place ou à emporter." },
-        { "q": "Peut-on choisir le niveau de piquant ?", "a": "Oui : doux, normal ou bien relevé, et la sauce peut être servie à part." }
+        {
+          "q": "Où manger un poulet piri piri à Amiens ?",
+          "a": "Au Piri Piri, 2 ter rue de l'Eau à Pont-de-Metz, à 10 minutes du centre d'Amiens. Sur place ou à emporter."
+        },
+        {
+          "q": "Peut-on choisir le niveau de piquant ?",
+          "a": "Oui : doux, normal ou bien relevé, et la sauce peut être servie à part."
+        }
       ],
       "cta": "Commander un poulet"
     },
@@ -329,14 +490,18 @@
       "toConfirm": "à remplir"
     }
   },
-  "jsonld": { "takeaway": "Vente à emporter", "dineIn": "Repas sur place", "groups": "Commandes pour les groupes et les fêtes" },
+  "jsonld": {
+    "takeaway": "Vente à emporter",
+    "dineIn": "Repas sur place",
+    "groups": "Commandes pour les groupes et les fêtes"
+  },
   "alt": {
-    "hero": "Poulet piri piri grillé à la braise au Piri Piri, à Pont-de-Metz",
-    "facade": "La façade du Piri Piri, rue de l'Eau à Pont-de-Metz",
-    "interieur": "La salle du Piri Piri",
+    "hero": "Poulet piri piri grillé, frites maison et riz, servis au Piri Piri",
+    "facade": "L’enseigne du Piri Piri, churrasqueira portugaise : rôtisserie et barbecue",
+    "interieur": "La salle du Piri Piri, murs rouges et chaises jaunes",
     "equipe": "L'équipe du Piri Piri derrière le comptoir",
-    "braise": "Poulets sur la grille, au-dessus de la braise",
+    "braise": "Poulet piri piri ouvert en crapaudine, grillé et découpé sur une planche",
     "bacalhau": "Bacalhau à Brás servi à l'assiette",
-    "fetes": "Poulets entiers et plateaux préparés pour une fête"
+    "fetes": "Une tablée de plats portugais au Piri Piri : bacalhau, poulet grillé, frites"
   }
 }

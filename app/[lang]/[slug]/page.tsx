@@ -123,7 +123,7 @@ function Seo({ lang, d, id }: { lang: Locale; d: Dict; id: "portugais" | "piripi
               </a>
             </div>
           </div>
-          <Photo paths={id === "piripiri" ? ["/media/grill/poulet-braise.jpg"] : ["/media/facade/facade.jpg"]} alt={id === "piripiri" ? d.alt.braise : d.alt.facade} illus={id === "piripiri" ? "chicken" : "facade"} tint="warm" sizes="(min-width: 768px) 40vw, 100vw" className="aspect-[4/3]" />
+          <Photo paths={id === "piripiri" ? ["/media/grill/poulet-braise.jpg"] : ["/media/facade/interieur.jpg"]} alt={id === "piripiri" ? d.alt.braise : d.alt.interieur} illus={id === "piripiri" ? "chicken" : "room"} tint="warm" sizes="(min-width: 768px) 40vw, 100vw" className="aspect-[4/3]" />
         </header>
 
         <div className="frieze mt-16 opacity-50" aria-hidden="true" />

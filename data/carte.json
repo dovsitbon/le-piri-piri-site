@@ -1,40 +1,356 @@
 {
-  "_doc": "La carte. CARTE ET PRIX À REMPLIR avec le restaurant : price null = « prix à confirmer » sur le site (et dans le total). from: true = affiché « à partir de » (prix qui varie selon la taille ou l'accompagnement). Noms et descriptions dans locales/*.json → products. pt : nom portugais d'origine, affiché sous le nom. photo : chemins essayés dans l'ordre (le premier présent dans public/media gagne ; sinon illustration au trait). tags : spicy (relevé au piri piri), fish, veggie, friday (plat du vendredi), party (proposé pour les fêtes et les groupes).",
-  "checked": "",
-  "categories": [
-    { "id": "poulet", "items": ["poulet-entier", "demi-poulet", "cuisses"] },
-    { "id": "grillades", "items": ["febras", "espetada", "entremeada", "chourico", "bifana"] },
-    { "id": "bacalhau", "items": ["bacalhau-bras", "bacalhau-grelhado", "pasteis-bacalhau"] },
-    { "id": "assiettes", "items": ["assiette-piri", "assiette-mixte", "prato-do-dia"] },
-    { "id": "accompagnements", "items": ["frites", "arroz", "salade", "sauce-piri"] },
-    { "id": "desserts", "items": ["pastel-nata", "bola-berlim", "arroz-doce"] },
-    { "id": "boissons", "items": ["sumol", "compal", "super-bock", "soft"] }
-  ],
-  "items": {
-    "poulet-entier": { "pt": "Frango inteiro", "price": null, "from": false, "tags": ["spicy", "party"], "photo": ["/media/plats/poulet-entier.jpg", "/media/grill/poulet-braise.jpg"], "illus": "chicken" },
-    "demi-poulet": { "pt": "Meio frango", "price": null, "from": false, "tags": ["spicy"], "photo": ["/media/plats/demi-poulet.jpg"], "illus": "chicken" },
-    "cuisses": { "pt": "Coxas de frango", "price": null, "from": true, "tags": ["spicy"], "photo": ["/media/plats/cuisses.jpg"], "illus": "chicken" },
-    "febras": { "pt": "Febras", "price": null, "from": false, "tags": [], "photo": ["/media/plats/febras.jpg"], "illus": "grill" },
-    "espetada": { "pt": "Espetada", "price": null, "from": false, "tags": ["party"], "photo": ["/media/plats/espetada.jpg"], "illus": "skewer" },
-    "entremeada": { "pt": "Entremeada", "price": null, "from": false, "tags": [], "photo": ["/media/plats/entremeada.jpg"], "illus": "grill" },
-    "chourico": { "pt": "Chouriço assado", "price": null, "from": false, "tags": ["party"], "photo": ["/media/plats/chourico.jpg"], "illus": "sausage" },
-    "bifana": { "pt": "Bifana", "price": null, "from": false, "tags": [], "photo": ["/media/plats/bifana.jpg"], "illus": "sandwich" },
-    "bacalhau-bras": { "pt": "Bacalhau à Brás", "price": null, "from": false, "tags": ["fish"], "photo": ["/media/plats/bacalhau-bras.jpg"], "illus": "fish" },
-    "bacalhau-grelhado": { "pt": "Bacalhau grelhado", "price": null, "from": false, "tags": ["fish", "friday"], "photo": ["/media/plats/bacalhau-grelhado.jpg"], "illus": "fish" },
-    "pasteis-bacalhau": { "pt": "Pastéis de bacalhau", "price": null, "from": true, "tags": ["fish", "party"], "photo": ["/media/plats/pasteis-bacalhau.jpg"], "illus": "croquette" },
-    "assiette-piri": { "pt": "Prato piri piri", "price": null, "from": false, "tags": ["spicy"], "photo": ["/media/plats/assiette-piri.jpg"], "illus": "plate" },
-    "assiette-mixte": { "pt": "Prato misto", "price": null, "from": false, "tags": [], "photo": ["/media/plats/assiette-mixte.jpg"], "illus": "plate" },
-    "prato-do-dia": { "pt": "Prato do dia", "price": null, "from": true, "tags": [], "photo": ["/media/plats/prato-do-dia.jpg"], "illus": "plate" },
-    "frites": { "pt": "Batatas fritas", "price": null, "from": false, "tags": ["veggie"], "photo": ["/media/plats/frites.jpg"], "illus": "fries" },
-    "arroz": { "pt": "Arroz", "price": null, "from": false, "tags": ["veggie"], "photo": ["/media/plats/arroz.jpg"], "illus": "bowl" },
-    "salade": { "pt": "Salada mista", "price": null, "from": false, "tags": ["veggie"], "photo": ["/media/plats/salade.jpg"], "illus": "bowl" },
-    "sauce-piri": { "pt": "Molho piri piri", "price": null, "from": false, "tags": ["spicy", "veggie"], "photo": ["/media/plats/sauce-piri.jpg"], "illus": "chili" },
-    "pastel-nata": { "pt": "Pastel de nata", "price": null, "from": false, "tags": ["veggie", "party"], "photo": ["/media/plats/pastel-nata.jpg"], "illus": "nata" },
-    "bola-berlim": { "pt": "Bola de Berlim", "price": null, "from": false, "tags": ["veggie"], "photo": ["/media/plats/bola-berlim.jpg"], "illus": "nata" },
-    "arroz-doce": { "pt": "Arroz doce", "price": null, "from": false, "tags": ["veggie"], "photo": ["/media/plats/arroz-doce.jpg"], "illus": "bowl" },
-    "sumol": { "pt": "Sumol", "price": null, "from": false, "tags": [], "photo": [], "illus": "bottle" },
-    "compal": { "pt": "Compal", "price": null, "from": false, "tags": [], "photo": [], "illus": "bottle" },
-    "super-bock": { "pt": "Super Bock", "price": null, "from": false, "tags": [], "photo": [], "illus": "bottle" },
-    "soft": { "pt": null, "price": null, "from": false, "tags": [], "photo": [], "illus": "bottle" }
+ "_doc": "La carte. CARTE ET PRIX À REMPLIR avec le restaurant : price null = « prix à confirmer » sur le site (et dans le total). from: true = affiché « à partir de » (prix qui varie selon la taille ou l'accompagnement). Noms et descriptions dans locales/*.json → products. pt : nom portugais d'origine, affiché sous le nom. photo : chemins (vraies photos de la fiche Google, ou photos Unsplash d’illustration : voir PHOTOS-SOURCES.md) essayés dans l'ordre (le premier présent dans public/media gagne ; sinon illustration au trait). tags : spicy (relevé au piri piri), fish, veggie, friday (plat du vendredi), party (proposé pour les fêtes et les groupes).",
+ "checked": "",
+ "categories": [
+  {
+   "id": "poulet",
+   "items": [
+    "poulet-entier",
+    "demi-poulet",
+    "cuisses"
+   ]
+  },
+  {
+   "id": "grillades",
+   "items": [
+    "febras",
+    "espetada",
+    "entremeada",
+    "chourico",
+    "bifana"
+   ]
+  },
+  {
+   "id": "bacalhau",
+   "items": [
+    "bacalhau-bras",
+    "bacalhau-grelhado",
+    "pasteis-bacalhau"
+   ]
+  },
+  {
+   "id": "assiettes",
+   "items": [
+    "assiette-piri",
+    "assiette-mixte",
+    "prato-do-dia"
+   ]
+  },
+  {
+   "id": "accompagnements",
+   "items": [
+    "frites",
+    "arroz",
+    "salade",
+    "sauce-piri"
+   ]
+  },
+  {
+   "id": "desserts",
+   "items": [
+    "pastel-nata",
+    "bola-berlim",
+    "arroz-doce"
+   ]
+  },
+  {
+   "id": "boissons",
+   "items": [
+    "sumol",
+    "compal",
+    "super-bock",
+    "soft"
+   ]
   }
+ ],
+ "items": {
+  "poulet-entier": {
+   "pt": "Frango inteiro",
+   "price": null,
+   "from": false,
+   "tags": [
+    "spicy",
+    "party"
+   ],
+   "photo": [
+    "/media/plats/poulet-entier.jpg",
+    "/media/grill/poulet-braise.jpg"
+   ],
+   "illus": "chicken"
+  },
+  "demi-poulet": {
+   "pt": "Meio frango",
+   "price": null,
+   "from": false,
+   "tags": [
+    "spicy"
+   ],
+   "photo": [
+    "/media/plats/demi-poulet.jpg"
+   ],
+   "illus": "chicken"
+  },
+  "cuisses": {
+   "pt": "Coxas de frango",
+   "price": null,
+   "from": true,
+   "tags": [
+    "spicy"
+   ],
+   "photo": [
+    "/media/plats/cuisses.jpg"
+   ],
+   "illus": "chicken"
+  },
+  "febras": {
+   "pt": "Febras",
+   "price": null,
+   "from": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/febras.jpg"
+   ],
+   "illus": "grill"
+  },
+  "espetada": {
+   "pt": "Espetada",
+   "price": null,
+   "from": false,
+   "tags": [
+    "party"
+   ],
+   "photo": [
+    "/media/plats/espetada.jpg"
+   ],
+   "illus": "skewer"
+  },
+  "entremeada": {
+   "pt": "Entremeada",
+   "price": null,
+   "from": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/entremeada.jpg"
+   ],
+   "illus": "grill"
+  },
+  "chourico": {
+   "pt": "Chouriço assado",
+   "price": null,
+   "from": false,
+   "tags": [
+    "party"
+   ],
+   "photo": [
+    "/media/plats/chourico.jpg"
+   ],
+   "illus": "sausage"
+  },
+  "bifana": {
+   "pt": "Bifana",
+   "price": null,
+   "from": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/bifana.jpg"
+   ],
+   "illus": "sandwich"
+  },
+  "bacalhau-bras": {
+   "pt": "Bacalhau à Brás",
+   "price": null,
+   "from": false,
+   "tags": [
+    "fish"
+   ],
+   "photo": [
+    "/media/plats/bacalhau-bras.jpg"
+   ],
+   "illus": "fish"
+  },
+  "bacalhau-grelhado": {
+   "pt": "Bacalhau grelhado",
+   "price": null,
+   "from": false,
+   "tags": [
+    "fish",
+    "friday"
+   ],
+   "photo": [
+    "/media/plats/bacalhau-grelhado.jpg"
+   ],
+   "illus": "fish"
+  },
+  "pasteis-bacalhau": {
+   "pt": "Pastéis de bacalhau",
+   "price": null,
+   "from": true,
+   "tags": [
+    "fish",
+    "party"
+   ],
+   "photo": [
+    "/media/plats/pasteis-bacalhau.jpg"
+   ],
+   "illus": "croquette"
+  },
+  "assiette-piri": {
+   "pt": "Prato piri piri",
+   "price": null,
+   "from": false,
+   "tags": [
+    "spicy"
+   ],
+   "photo": [
+    "/media/plats/assiette-piri.jpg"
+   ],
+   "illus": "plate"
+  },
+  "assiette-mixte": {
+   "pt": "Prato misto",
+   "price": null,
+   "from": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/assiette-mixte.jpg"
+   ],
+   "illus": "plate"
+  },
+  "prato-do-dia": {
+   "pt": "Prato do dia",
+   "price": null,
+   "from": true,
+   "tags": [],
+   "photo": [
+    "/media/plats/prato-do-dia.jpg"
+   ],
+   "illus": "plate"
+  },
+  "frites": {
+   "pt": "Batatas fritas",
+   "price": null,
+   "from": false,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/frites.jpg"
+   ],
+   "illus": "fries"
+  },
+  "arroz": {
+   "pt": "Arroz",
+   "price": null,
+   "from": false,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/arroz.jpg"
+   ],
+   "illus": "bowl"
+  },
+  "salade": {
+   "pt": "Salada mista",
+   "price": null,
+   "from": false,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/salade.jpg"
+   ],
+   "illus": "bowl"
+  },
+  "sauce-piri": {
+   "pt": "Molho piri piri",
+   "price": null,
+   "from": false,
+   "tags": [
+    "spicy",
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/sauce-piri.jpg"
+   ],
+   "illus": "chili"
+  },
+  "pastel-nata": {
+   "pt": "Pastel de nata",
+   "price": null,
+   "from": false,
+   "tags": [
+    "veggie",
+    "party"
+   ],
+   "photo": [
+    "/media/plats/pastel-nata.jpg"
+   ],
+   "illus": "nata"
+  },
+  "bola-berlim": {
+   "pt": "Bola de Berlim",
+   "price": null,
+   "from": false,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/bola-berlim.jpg"
+   ],
+   "illus": "nata"
+  },
+  "arroz-doce": {
+   "pt": "Arroz doce",
+   "price": null,
+   "from": false,
+   "tags": [
+    "veggie"
+   ],
+   "photo": [
+    "/media/plats/arroz-doce.jpg"
+   ],
+   "illus": "bowl"
+  },
+  "sumol": {
+   "pt": "Sumol",
+   "price": null,
+   "from": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/sumol.jpg"
+   ],
+   "illus": "bottle"
+  },
+  "compal": {
+   "pt": "Compal",
+   "price": null,
+   "from": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/compal.jpg"
+   ],
+   "illus": "bottle"
+  },
+  "super-bock": {
+   "pt": "Super Bock",
+   "price": null,
+   "from": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/super-bock.jpg"
+   ],
+   "illus": "bottle"
+  },
+  "soft": {
+   "pt": null,
+   "price": null,
+   "from": false,
+   "tags": [],
+   "photo": [
+    "/media/plats/soft.jpg"
+   ],
+   "illus": "bottle"
+  }
+ }
 }
