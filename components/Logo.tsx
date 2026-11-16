@@ -1,6 +1,6 @@
-// Logo typographique du Piri Piri (pas de logo officiel connu : à remplacer par le vrai s'il en existe un).
-// Un carreau d'azulejo au trait bleu, un petit piment rouge posé dessus, et « LE PIRI PIRI » en Fraunces.
-// Le même tracé sert à l'ouverture (Intro), au favicon (app/icon.svg) et à public/logo.svg.
+// Le vrai logo du Piri Piri (badge « Churrasqueira · Rotisserie - Barbecue », coq dans une flamme),
+// redessiné en vectoriel par scripts/logo.mjs : public/logo.svg, public/logo-badge.webp (petites tailles), app/icon.svg.
+// Le carreau d'azulejo et le piment ci-dessous servent à l'ouverture (Intro) et aux décors.
 
 /** Tracés du carreau (viewBox 0 0 64 64). */
 export const TILE = {
@@ -37,11 +37,17 @@ export function Mark({ className = "h-10 w-10", stroke = "#1F4E8C" }: { classNam
   );
 }
 
-/** Logo complet : le carreau + « LE PIRI PIRI ». `tone="light"` sur fond bleu. */
+/** Le badge rond du restaurant (image légère pour l'en-tête et le pied de page). */
+export function Badge({ className = "h-12 w-12" }: { className?: string }) {
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src="/logo-badge.webp" alt="" width={256} height={256} className={`shrink-0 rounded-full ${className}`} />;
+}
+
+/** Logo complet : le vrai badge + « LE PIRI PIRI » lisible. `tone="light"` sur fond bleu. */
 export function Logo({ className = "", tone = "dark" }: { className?: string; tone?: "dark" | "light" }) {
   return (
     <span className={`inline-flex items-center gap-2.5 ${className}`} translate="no">
-      <Mark className="h-9 w-9 shrink-0 md:h-10 md:w-10" stroke={tone === "light" ? "#FBF8F2" : "#1F4E8C"} />
+      <Badge className="h-11 w-11 md:h-[3.25rem] md:w-[3.25rem]" />
       <span className={`font-[family-name:var(--font-display)] text-[1.3rem] leading-none font-[680] tracking-[0.03em] whitespace-nowrap md:text-[1.45rem] ${tone === "light" ? "text-paper" : "text-braise"}`}>
         LE PIRI PIRI
       </span>

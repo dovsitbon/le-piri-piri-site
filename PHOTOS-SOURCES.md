@@ -50,3 +50,7 @@ Licence Unsplash : usage commercial gratuit, sans attribution obligatoire (https
 | assets/plats/compal.jpg | https://unsplash.com/photos/qkYlx867R-4 | Vedrana Filipović |
 | assets/plats/super-bock.jpg | https://unsplash.com/photos/hhxjE6qjKq0 | Jan Gunnar Nygård |
 | assets/plats/soft.jpg | https://unsplash.com/photos/nZvTEtAc024 | Ambo Ampeng |
+
+## Logo
+
+public/logo.svg, logo-mark.svg, logo-badge.webp, app/icon.svg : vrai logo du restaurant, redessiné en vectoriel (`npm run logo`) d’après l’image publiée sur sa fiche Google (assets/raw/gmaps/g46.jpg).

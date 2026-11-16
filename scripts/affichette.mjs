@@ -32,7 +32,7 @@ const flyer = `<!doctype html><html lang="fr"><head><meta charset="utf-8"><style
 @page{size:148mm 210mm;margin:0}
 html,body{width:148mm;height:210mm}
 .top{height:88mm;padding:12mm 11mm 0;position:relative}
-.brand{display:flex;align-items:center;gap:3.5mm}.brand svg{width:13mm;height:13mm;background:#FBF8F2;padding:1.4mm;border-radius:1.5mm}
+.brand{display:flex;align-items:center;gap:3.5mm}.brand svg{width:17mm;height:17mm;border-radius:50%}
 .brand .word{font-size:20pt}
 h1{font-family:F;font-weight:620;font-size:35pt;line-height:.98;letter-spacing:-.02em;margin-top:9mm}
 .sub{margin-top:4mm;font-size:12pt;opacity:.9}
@@ -78,7 +78,7 @@ const og = `<!doctype html><html lang="fr"><head><meta charset="utf-8"><style>${
 html,body{width:1200px;height:630px;overflow:hidden}
 .wrap{display:grid;grid-template-columns:1fr 470px;height:630px}
 .l{padding:70px 64px;display:flex;flex-direction:column;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:18px}.brand svg{width:64px;height:64px;background:#FBF8F2;padding:7px;border-radius:6px}.brand .word{font-size:34px}
+.brand{display:flex;align-items:center;gap:18px}.brand svg{width:92px;height:92px;border-radius:50%}.brand .word{font-size:34px}
 h1{font-family:F;font-weight:620;font-size:78px;line-height:.98;letter-spacing:-.02em}
 .meta{font-size:26px;opacity:.92}
 .r{background:#FBF8F2;display:flex;flex-direction:column;justify-content:center;padding:56px;gap:22px}

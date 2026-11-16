@@ -9,7 +9,7 @@ Ce qu'on sait déjà (article LusoJornal, février 2026) : Philippe Salgado, nat
 5. **Un portable pour WhatsApp** (le 03 22 44 76 51 est un fixe) : data/site.json → whatsapp.
 6. **L'e-mail** qui reçoit les commandes (+ accord pour Resend : clé API, domaine d'envoi).
 7. **Des photos** des plats, de la grille / braise, de la façade, de la salle et de l'équipe (voir assets/A-PHOTOGRAPHIER.md).
-8. **Le logo** s'il en existe un (enseigne, carte, sachets) : sinon on garde le logo typographique.
+8. **Le logo** : son vrai logo (badge « Churrasqueira · Rotisserie - Barbecue », coq dans une flamme) a été redessiné en SVG d’après l’image de sa fiche Google (public/logo.svg). Lui demander le fichier d’origine pour vérifier les détails.
 9. **SIRET** et directeur de la publication (mentions légales).
 10. Moyens de paiement acceptés (carte, espèces, titres-restaurant), places assises, stationnement, accès bus.
 11. Accord pour reprendre de vrais avis Google sur le site (data/avis.json).
